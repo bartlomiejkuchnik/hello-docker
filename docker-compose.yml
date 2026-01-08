@@ -1,0 +1,9 @@
+
+services:
+  web:
+    image: nginx:alpine         # korzystamy z gotowego obrazu Nginx
+    ports:
+      - "8080:80"               # localhost:8080 -> port 80 w kontenerze
+    volumes:
+      - ./:/usr/share/nginx/html:ro  # montujemy bieżący folder jako katalog serwowania
+    restart: unless-stopped     # opcjonalnie: automatyczny restart w razie problemów
