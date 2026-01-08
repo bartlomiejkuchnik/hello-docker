@@ -1,5 +1,4 @@
-
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('btn');
   const out = document.getElementById('output');
 
