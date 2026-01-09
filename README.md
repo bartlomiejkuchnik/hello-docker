@@ -1,3 +1,5 @@
-docker compose up --detach
-docker compose down
+docker compose up --detach  
+
+docker compose down  
+
 docker ps
